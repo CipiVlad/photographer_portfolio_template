@@ -208,3 +208,34 @@ nav ul li a:hover {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+/* behind the lens */
+
+.contact {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.contact-text {
+  width: 50%;
+  padding: 0 20px;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.contact-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-img {
+  background-image: url(./img/david-frye-Dz0dZ7gBg3s-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 50%;
+  height: 800px;
+}
