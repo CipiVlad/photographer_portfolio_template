@@ -3,7 +3,9 @@
 ## Idea
 This is a one-pager template in html and css. It represents a photographer portfolio use case.
 
+## Live Site
 
+- URL: [photographer portfolio template](https://main--photographer-portfolio-template.netlify.app/)
 ### Screenshot
 
 ![desktop layout](./img/screenshots/screenshot_hero.png)
