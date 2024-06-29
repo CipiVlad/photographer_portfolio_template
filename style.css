@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* utility */
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Hero Section */
+.hero-bg-img {
+  height: 100vh;
+  background-image: url(./img/roman-denisenko--_zjVVx097U-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* navbar */
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: #f0c330;
+}
+
+.logo {
+  color: white;
+}
+
+/* hero text */
+.hero-text {
+  position: absolute;
+  top: 25%;
+  width: 25%;
+  color: white;
+  margin-left: 20px;
+}
+
+.hero-text h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-hero {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-hero:hover {
+  background-color: black;
+  color: white;
+}
+
+/* about  */
+
+.about,
+.vision {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-text {
+  width: 50%;
+  padding: 0 20px;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+
+.about-text h2,
+.vision-text h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.btn-section {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: black;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn-section:hover {
+  background-color: white;
+  color: black;
+}
+
+.about-img {
+  background-image: url(./img/tim-toomey-Myzea1GthfA-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  height: 800px;
+}
+
+/* vision */
+.vision-text {
+  width: 50%;
+  padding: 0 20px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+
+.vision-img {
+  background-image: url(./img/vincent-timothy-AFwVLtJnS3M-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 50%;
+  height: 800px;
+}
+
+/* work */
+.work {
+  margin-top: 150px;
+  margin-bottom: 50px;
+  background-image: url(./img/i-am_nah--S4OsO0c6Ts-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+.work h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-top: 20%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  text-align: center;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+
+.work-grid-item {
+  padding: 20px;
+  color: white;
+}
+
+.work-grid-item h3 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.work-grid-item h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
