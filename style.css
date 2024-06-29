@@ -473,6 +473,7 @@ footer h2 {
     overflow-x: hidden;
   }
 
+
   #hamburger {
     display: block;
   }
@@ -483,9 +484,10 @@ footer h2 {
   }
 
   .hero-text {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
+    padding: 20px;
   }
 
   .hero-text h1 {
