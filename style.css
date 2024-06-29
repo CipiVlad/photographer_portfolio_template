@@ -211,19 +211,19 @@ nav ul li a:hover {
 
 /* behind the lens */
 
-.contact {
+.behind-lens {
   margin-top: 150px;
   margin-bottom: 50px;
 }
 
-.contact-text {
+.behind-lens-text {
   width: 50%;
   padding: 0 20px;
   margin-right: 10%;
   margin-bottom: 10%;
 }
 
-.contact-text h2 {
+.behind-lens-text h2 {
   font-size: 40px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -231,7 +231,7 @@ nav ul li a:hover {
   letter-spacing: 2px;
 }
 
-.contact-img {
+.behind-lens-img {
   background-image: url(./img/david-frye-Dz0dZ7gBg3s-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,3 +239,161 @@ nav ul li a:hover {
   width: 50%;
   height: 800px;
 }
+
+/* gallery */
+
+.gallery {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.gallery h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+  grid-template-areas:
+    "item1 item2 item3 item4"
+    "item5 item6 item7 item8";
+}
+
+.gallery-grid-item {
+  grid-area: item1;
+  background-image: url(./img/gallery/ashutosh-singh-rana-iOSlZd9kBG8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 300px;
+}
+
+.gallery-grid-item:nth-child(2) {
+  grid-area: item2;
+  background-image: url(./img/gallery/austin-lowman-4zjpCpfZasI-unsplash.jpg);
+}
+
+.gallery-grid-item:nth-child(3) {
+  grid-area: item3;
+  background-image: url(./img/gallery/ivan-kazlouskij-eJnfIuikVZo-unsplash.jpg);
+}
+
+.gallery-grid-item:nth-child(4) {
+  grid-area: item4;
+  background-image: url(./img/gallery/joseph-agboola-k_PT_Mqrp3c-unsplash.jpg);
+}
+
+.gallery-grid-item:nth-child(5) {
+  grid-area: item5;
+  background-image: url(./img/gallery/mohammad-kashkooli-dCTQi7aco1I-unsplash.jpg);
+}
+
+.gallery-grid-item:nth-child(6) {
+  grid-area: item6;
+  background-image: url(./img/gallery/mohammad-kashkooli-xZw5JKtuBKs-unsplash.jpg);
+}
+
+.gallery-grid-item:nth-child(7) {
+  grid-area: item7;
+  background-image: url(./img/gallery/owaiz-raiyan-rEBni0CgoHE-unsplash.jpg);
+}
+
+.gallery-grid-item:nth-child(8) {
+  grid-area: item8;
+  background-image: url(./img/gallery/unterirdischer-mann-iLmemc7BzDk-unsplash.jpg);
+}
+
+.gallery-grid-item:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.gallery p {
+  margin: 20px;
+  text-align: center;
+}
+
+.gallery-btn {
+  text-align: center;
+}
+
+/* contact */
+
+.contact-form {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.contact-form h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact-form form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: white;
+  color: black;
+}
+
+.contact-img {
+  background-image: url(./img/roman-denisenko--_zjVVx097U-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 50%;
+  height: 800px;
+}
+
+
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* media queries */
