@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 /* utility */
@@ -590,6 +591,14 @@ footer h2 {
 
 
   /* contact */
+
+  .contact .flex-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+
+  }
+
   .contact-img {
     width: 100%;
     height: 600px;
