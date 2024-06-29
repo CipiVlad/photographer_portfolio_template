@@ -28,6 +28,10 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+#hamburger {
+  display: none;
+}
+
 /* navbar */
 
 nav {
@@ -460,7 +464,139 @@ footer h2 {
 /* media queries */
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  .hero-bg-img {
+    height: 100vh;
+  }
+
+  .hero-text h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    font-size: 12px;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: center;
+  }
+
   nav ul {
     display: none;
   }
+
+
+
+  /* section about */
+
+  .about {
+    flex-direction: column;
+  }
+
+  .about-text,
+  .vision-text {
+    width: 100%;
+  }
+
+  .about-img,
+  .vision-img {
+    width: 100%;
+  }
+
+
+  /* section vision */
+
+  .vision {
+    flex-direction: column-reverse;
+  }
+
+  /* work */
+  .work {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 250vh;
+  }
+
+  .work h2 {
+    font-size: 30px;
+  }
+
+  .work-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3"
+      "item4";
+  }
+
+  .work-grid-item {
+    text-align: center;
+  }
+
+
+  /* behinde the lens */
+
+  .behind-lens {
+    flex-direction: column;
+  }
+
+  .behind-lens-text {
+    width: 100%;
+  }
+
+  .behind-lens-img {
+    width: 100%;
+  }
+
+  /* gallery */
+  .gallery {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .gallery h2 {
+    font-size: 30px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+      "item1"
+      "item2"
+      "item3"
+      "item4"
+      "item5"
+      "item6"
+      "item7"
+      "item8";
+  }
+
+  .gallery-grid-item {
+    text-align: center;
+  }
+
+
+
+  /* contact */
+  .contact-img {
+    width: 100%;
+    height: 600px;
+  }
+
+
+
+
+
 }
