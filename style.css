@@ -467,6 +467,10 @@ footer h2 {
   margin-right: 10px;
 }
 
+footer p a {
+  color: #f0c330;
+}
+
 /* media queries */
 @media screen and (max-width: 768px) {
   body {
