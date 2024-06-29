@@ -343,7 +343,7 @@ nav ul li a:hover {
 }
 
 .contact-form form {
-  width: 50%;
+  padding: 20px;
   margin: 0 auto;
 }
 
@@ -364,11 +364,13 @@ nav ul li a:hover {
 }
 
 .contact-form input[type="submit"] {
+  width: 200px;
   background-color: black;
   color: white;
   padding: 10px 20px;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .contact-form input[type="submit"]:hover {
@@ -394,6 +396,59 @@ footer {
   color: white;
   padding: 20px;
   text-align: center;
+
+}
+
+footer h2 {
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer-flex-container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-flex-container ul li {
+  margin-bottom: 10px;
+}
+
+.footer-flex-container ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons img {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.footer-social-icons img {
+  margin-right: 10px;
 }
 
 /* media queries */
